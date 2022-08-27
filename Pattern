@@ -1,0 +1,16 @@
+    // Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    int row,i,j;
+    cout<<"Enter the no of rows";
+    cin>>row;
+    for (i=1;i<=row;i++)
+    {
+        for(j=0;j<i;j++)
+        {
+            cout<<i;
+        }
+        cout<<"\n";
+    }
+}
